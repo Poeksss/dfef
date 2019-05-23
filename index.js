@@ -52,6 +52,9 @@ client.on("message", async message => {
             await message.react("✅")
             await message.react("❌")
         })
+        if(cmd === '!play'){
+            message.reply('d');
+        }
 
 
     }
